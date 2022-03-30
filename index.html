@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Manchester Hotel</title>
+</head>
+
+<body>
+  <div id="Sidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">THE STORY</a>
+    <a href="#">GUEST ROOMS</a>
+    <a href="#">OUR SPACES</a>
+    <a href="#">CONTACT</a>
+  </div>
+  </div>
+  <header>
+    <div class="layer"></div>
+    <div class="promo"><a href="">Group and Event Inquiries<span class="click">Click here</span></a></div>
+    <nav><img onclick="openNav()" class="mobile-ham" src="./imgs/icon-hamburger.svg" alt="mobile-hamburger">
+      <div class="bigNav-details">
+        <p class="selection-items">THE STORY</p>
+        <p class="selection-items">GUEST ROOMS</p>
+        <p class="selection-items">OUR SPACES</p>
+        <p class="selection-items">CONTACT</p>
+      </div>
+    </nav>
+    <div class="open-words">
+      <h1 id="logo">LEXINGTON HOTEL: <br>MANCHESTER STREET</h1>
+      <p>941 Manchester Street, Lexington, KY 40508</p>
+      <p class="coming-soon">COMING SOON</p>
+    </div>
+
+  </header>
+  <main>
+    <div id="section1" class="section">
+      <h2 class="secondary-headings">THE STORY</h2>
+      <div class="section_split">
+        <div class="main-wording-section story-section">
+          <p class="main-wording">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis repudiandae
+            dolorem explicabo tempore dicta aliquid, sunt veniam aspernatur consectetur ratione nisi laudantium
+            inventore perspiciatis. Doloremque provident nam architecto. Voluptate!</p>
+          <ul id="Hotel_features">
+            <li class="hotel_feature"> SURROUNDED BY NATURE</li>
+            <li class="hotel_feature"> LOUNGE AND RELAX</li>
+            <li class="hotel_feature"> UNIQUE HISTORICAL FEATURES</li>
+            <li class="hotel_feature"> VIEW GALLERY <img class="room-icon" src="./imgs/gallery-photo-svgrepo-com.svg"
+                alt=""> </li>
+          </ul>
+        </div>
+        <img class="main-photos" id="gallery-photo" src="./imgs/The_Manchester_Hotel_Photo.png"
+          alt="a picture of the hotel">
+        <div id="gallery" class="mobile-gall">
+          <p>VIEW GALLERY</p><img class="gallery-icon" src="./imgs/icons8-photo-gallery-24.png" alt="">
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div id="section2" class="section">
+      <h2 class="secondary-headings">GUEST ROOMS</h2>
+      <div class="section_split">
+        <div class="main-wording-section guestroom-word ">
+          <p class="main-wording">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis repudiandae
+            dolorem explicabo tempore dicta aliquid, sunt veniam aspernatur consectetur ratione nisi laudantium
+            inventore perspiciatis. Doloremque provident nam architecto. Voluptate!</p>
+          <ul id="room_features">
+            <li class="room_feature"> <img class="room-icon" src="./imgs/SmLounge.png" alt=""> LOUNGE SEATING</li>
+            <li class="room_feature"> <img class="room-icon" src="./imgs/great view - mountain.png" alt=""> MOUNTAIN
+              VIEWS</li>
+            <li class="room_feature"> <img class="room-icon" src="./imgs/group friendly.png" alt=""> CHILD FRIENDLY</li>
+            <li class="room_feature"> <img class="room-icon" src="./imgs/Large.png" alt=""> SPACIOUS</li>
+          </ul>
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+
+            <img src="imgs/Room_Photo_1.png" style="width:100%">
+
+          </div>
+
+          <div class="mySlides fade">
+
+            <img src="imgs/Room_Photo_2.png" style="width:100%">
+
+          </div>
+
+          <div class="mySlides fade">
+
+            <img src="imgs/Room_Photo_3.png" style="width:100%">
+
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <!-- The dots/circles -->
+          <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

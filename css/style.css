@@ -1,0 +1,663 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:"Seta Reta NF W01 Regular";
+    src:url("../fonts/ecf31029-b987-40fc-88a1-2d11f4c7a2f1.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "SweetSansPro-Regular";
+    src: url('../fonts/SweetSansPro-Regular.woff');
+}
+
+:root{
+    --beige:#f9efe1;
+    --lifeHouse:"Seta Reta NF W01 Regular";
+    --green: #263d2f;
+    --navFont:"SweetSansPro-Regular";
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh auto ;
+   
+}
+
+header{
+    background-image: url('../imgs/Man.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  
+    position: relative;
+}
+
+.promo{
+    background-color: var(--green);
+    text-align: center;
+    padding: 1rem;
+    z-index: 500;
+    
+}
+
+.promo a{
+    color: var(--beige);
+    text-decoration: none;
+}
+
+.click{
+    position: relative;
+    left: 0.8rem;
+    font-size: 0.8rem;
+}
+
+
+nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    align-self: flex-start;
+    font-family: var(--lifeHouse);
+    z-index: 500;
+    width: 100%;
+}
+
+nav p{
+    color: var(--beige);
+}
+
+.mobile-ham{
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+
+#logo{
+ 
+    
+    font-size: 2rem;
+    font-family: var(--lifeHouse);
+    text-align: center;
+    border-bottom: 1px solid var(--beige);
+    
+}
+
+.open-words{
+    z-index: 500;
+    color: var(--beige);
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 30%; 
+}
+
+.open-words p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.layer{
+    background-color: hsla(283, 19%, 7%, 0.527);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bigNav-details{
+    display: none;
+}
+
+.life-house{
+    font-size: 1.5rem ;
+}
+
+.sidenav {
+    height: 300px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 600;
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: var(--navFont);
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .coming-soon{
+      font-family: var(--lifeHouse);
+      font-size: 1.2rem;
+  }
+
+  main{
+      background-color: var(--green);
+      padding: 0.6rem;
+      display: grid;
+      grid-template-rows: auto;
+  }
+
+  .secondary-headings{
+      font-family: var(--lifeHouse);
+      font-size: 1.9rem;
+      border-bottom: 1px solid #000;
+      width: 90%;
+      align-self: center;
+      padding: 2rem 1rem 1rem 1.5rem;
+     
+  }
+
+.section{
+      background-color: var(--beige);
+      /* padding: 1rem; */
+      display: flex;
+      flex-direction: column;
+     
+     
+      
+  }
+
+  
+  .main-wording-section{
+     padding: 1rem;
+      align-self: center;
+      width: 90%;
+      display: flex;
+      align-self: center;
+  }
+  
+  
+  
+  .main-wording{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 0.8rem;
+    padding: 1rem;
+  }
+
+
+  .main-photos{
+      width: 100%;
+      position: relative;
+      bottom: 0;
+  }
+
+  #gallery{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--green);
+      padding: 2rem;
+      cursor: pointer;
+      
+  }
+
+  #gallery p{
+      text-align: center;
+      color: var(--beige);
+      
+  }
+
+  .gallery-icon{
+      width: 2rem;
+      position: relative;
+      left: 1rem;
+      fill: white;
+  }
+
+  #room_features{
+    border-bottom: 1px solid black;
+    margin-top: 1.2rem;
+    padding: 1rem;
+  }
+
+
+  #room_features li{
+border-top: 1px solid grey;
+/* margin: 1rem 0rem;  */
+padding: 1.4rem 0rem;
+letter-spacing: 0.2rem ;
+font-size: 0.8rem;
+
+  }
+
+  .room_feature{
+      display: flex;
+      align-items: center;
+  }
+
+  .room-icon{
+      width: 1.9rem;
+      margin-right: 0.5rem;
+  }
+
+  .section_split{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .guestroom-word{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .dots{
+      position: absolute;
+      bottom: 0.5rem;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+  }
+
+  #Hotel_features{
+      display: none;
+  }
+
+  #section1{
+      margin-top: 1rem;
+  }
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+@media screen and (min-width:768px){
+    .mobile-ham{
+       display: none;
+    }
+
+    #Sidenav{
+        display: none !important;
+    }
+
+    .bigNav-details{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        justify-content: space-around;
+        font-family: var(--navFont) ;
+    }
+
+    .coming-soon{
+        
+        font-size: 1.4rem;
+    }
+
+
+    #logo{
+        font-size: 3rem;
+    }
+
+    .open-words p{
+       font-size: 1.2rem;
+    }
+
+
+    .secondary-headings{
+        font-size: 2.5rem;
+        
+    }
+
+    
+
+   
+
+
+    .selection-items:hover{
+border-bottom: 1px solid var(--beige);
+cursor: pointer;
+    }
+
+   
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+    .section{
+       flex-direction: column;
+        
+    }
+
+    #Hotel-features{
+        padding: 1rem 2rem 0rem 0rem;
+    }
+
+    .main-wording{
+        padding: 0rem 1rem 0rem 0rem;
+    }
+
+    .main-wording-section{
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+    .section_split{
+        display: flex;
+        flex-direction: row;
+       width: 90%;
+       align-self: center;
+       
+        
+    }
+
+   #gallery{
+       display: none;
+   }
+
+   #Hotel_features{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 0rem 0rem;
+}
+
+.hotel_feature{
+    padding: 1rem 0rem;
+    border-bottom: 1px solid grey;
+}
+
+.story-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-photos{
+    width: 60%;
+    height: 450px;
+    position: relative;
+    top: 2rem;
+}
+
+.main-wording-section{
+    align-self: initial;
+}
+
+#section1{
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+
+.secondary-headings{
+    
+    padding: 2rem 1rem 1rem 0rem;
+   
+}
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width:1440px){
+    #logo{
+ 
+    font-size: 4rem;
+     }
+
+    .open-words p{
+        font-size: 1.5rem;
+     }
+
+     .secondary-headings{
+         font-size: 3rem;
+     }
+
+     .main-photos{
+        width: 60%;
+        height: 550px;
+        position: relative;
+        top: 2rem;
+    }
+
+   
+}
+
+@media screen and (min-width:1800px){
+    .main-photos{
+        width: 80%;
+    }
+    .story-section{
+        width: 40%;
+    }
+}
+
+
+
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    z-index: 999;
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+
+
+
+
+
+
