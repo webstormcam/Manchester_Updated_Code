@@ -444,6 +444,12 @@ cursor: pointer;
     order: 5;
 }
 
+.slideshow-container {
+   
+    display: flex;
+    
+  }
+
 
 
 
@@ -575,6 +581,7 @@ cursor: pointer;
 .slideshow-container {
     max-width: 1000px;
     position: relative;
+    
     
   }
   
