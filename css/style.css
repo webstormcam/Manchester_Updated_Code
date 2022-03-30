@@ -433,6 +433,11 @@ cursor: pointer;
     padding-top: 2rem;
 }
 
+#section2{
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
 
 .secondary-headings{
     
@@ -442,13 +447,21 @@ cursor: pointer;
 
 .guestroom-word{
     order: 5;
+    width: 50%;
+    padding-left: 1rem;
+
 }
 
 .slideshow-container {
    
     display: flex;
+    position: relative;
+    top: 2rem;
+  
     
   }
+
+
 
 
 
@@ -478,6 +491,12 @@ cursor: pointer;
         position: relative;
         top: 2rem;
     }
+
+    .slideshow-container {
+   
+        height: 550px;
+        
+      }
 
    
 }
