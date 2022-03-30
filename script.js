@@ -35,3 +35,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "flex";
   dots[slideIndex-1].className += " active";
 }
+
+
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoibGlua2NhbSIsImEiOiJjbDFkb3JjMGUwamsxM2ZuNGE5YXdzbjFrIn0.IalJsP4Je2nt6-V9HXK5cw'
+}).addTo(map);

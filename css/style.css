@@ -313,7 +313,11 @@ font-size: 0.8rem;
 
   
   
-
+    #map { 
+        height: 400px; 
+    width: 100%
+    
+    }
 
 
 
@@ -718,6 +722,8 @@ cursor: pointer;
     from {opacity: .4}
     to {opacity: 1}
   }
+
+ 
 
 
 
