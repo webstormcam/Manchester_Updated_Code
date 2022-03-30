@@ -458,6 +458,11 @@ cursor: pointer;
     padding-top: 2rem;
 }
 
+#section4{
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
 
 .secondary-headings{
     
@@ -490,6 +495,12 @@ cursor: pointer;
     font-size: 1.6rem;
     font-family: var(--lifeHouse);
     padding: 0rem 0rem 0rem 0rem;
+}
+
+#map{
+    width: 80%;
+    position: relative;
+    top: 2rem;
 }
 
 
