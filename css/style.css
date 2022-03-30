@@ -299,8 +299,16 @@ font-size: 0.8rem;
       margin-top: 1rem;
   }
 
-  
+  .resto-title{
+      font-size: 1.6rem;
+      font-family: var(--lifeHouse);
+      padding: 0rem 0rem 0rem 1rem;
+  }
 
+  
+  .spaces-section{
+    flex-direction: column;
+    }
   
 
   
@@ -356,6 +364,8 @@ font-size: 0.8rem;
 border-bottom: 1px solid var(--beige);
 cursor: pointer;
     }
+
+    
 
    
 
@@ -417,6 +427,7 @@ cursor: pointer;
     flex-direction: column;
 }
 
+
 .main-photos{
     width: 60%;
     height: 450px;
@@ -465,6 +476,17 @@ cursor: pointer;
   
     
   }
+
+  .guest-style{
+    padding: 0rem 0rem 0rem 1rem
+  }
+
+
+  .resto-title{
+    font-size: 1.6rem;
+    font-family: var(--lifeHouse);
+    padding: 0rem 0rem 0rem 0rem;
+}
 
 
 
