@@ -482,8 +482,13 @@ cursor: pointer;
     display: flex;
     position: relative;
     top: 2rem;
+    width: 60%;
   
     
+  }
+
+  .guestroom-word{
+      width: 40%;
   }
 
   .guest-style{
