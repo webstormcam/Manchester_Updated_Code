@@ -338,6 +338,8 @@ font-size: 0.8rem;
         
     }
 
+   
+
     
 
 
@@ -355,7 +357,7 @@ font-size: 0.8rem;
     .bigNav-details{
         display: flex;
         flex-direction: row;
-        width: 500px;
+        width: 640px;
         justify-content: space-around;
         font-family: var(--navFont) ;
     }
@@ -388,6 +390,13 @@ font-size: 0.8rem;
     .selection-items:hover{
 border-bottom: 1px solid var(--beige);
 cursor: pointer;
+    }
+
+
+
+    .selection-items a{
+        color: var(--beige);
+        text-decoration: none;
     }
 
     
