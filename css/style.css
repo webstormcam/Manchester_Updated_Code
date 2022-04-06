@@ -311,7 +311,7 @@ font-size: 0.8rem;
     
     }
 
-    footer{
+#contact{
         background-color: #263d2f;
         height: 200px;
         text-align: center;
@@ -321,7 +321,7 @@ font-size: 0.8rem;
         justify-content: center;
     }
 
-    footer p{
+    #contact p{
         color: #fff;
         font-family: "Seta Reta NF W01 Regular" ;
         font-size: 2rem;
@@ -331,6 +331,11 @@ font-size: 0.8rem;
     #email{
         color: #fff;
         text-decoration: none;
+    }
+
+    footer{
+        background-color: #000;
+        
     }
 
     
@@ -533,7 +538,7 @@ cursor: pointer;
 
 #map{
     width: 80%;
-    position: relative;
+    
     top: 2rem;
 }
 

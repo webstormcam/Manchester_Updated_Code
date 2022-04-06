@@ -22,10 +22,11 @@
     
   <div id="Sidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">THE STORY</a>
-    <a href="#">GUEST ROOMS</a>
-    <a href="#">OUR SPACES</a>
-    <a href="#">CONTACT</a>
+    <a href="#section1">THE STORY</a>
+    <a href="#section2">GUEST ROOMS</a>
+    <a href="#section3">OUR SPACES</a>
+    <a href="#section4">OUR LOCATION</a>
+    <a href="#contact">CONTACT</a>
 
   </div>
   </div>
@@ -34,10 +35,11 @@
     <div class="promo"><a href="">Group and Event Inquiries<span class="click">Click here</span></a></div>
     <nav><img onclick="openNav()" class="mobile-ham" src="./imgs/icon-hamburger.svg" alt="mobile-hamburger">
       <div class="bigNav-details">
-        <p class="selection-items">THE STORY</p>
-        <p class="selection-items">GUEST ROOMS</p>
-        <p class="selection-items">OUR SPACES</p>
-        <p class="selection-items">CONTACT</p>
+        <p class="selection-items"><a href="#section1">THE STORY</a></p>
+        <p class="selection-items"> <a href="#section2">GUEST ROOMS</a></p>
+        <p class="selection-items">   <a href="#section3">OUR SPACES</a></p>
+        <p class="selection-items"> <a href="#section4">OUR LOCATION</a></p>
+        <p class="selection-items"><a href="#contact">CONTACT</a></p>
       </div>
     </nav>
     <div class="open-words">
@@ -190,9 +192,12 @@
 
 
   </main>
-  <footer>
+  <div id="contact">
     <p>FOR ANY INQUIRIES </p>
     <p><a id="email" href="#">hello@manchester.com</a></p>
+  </div>
+  <footer>
+
   </footer>
   <script src="script.js"></script>
 </body>
