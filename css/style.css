@@ -511,6 +511,7 @@ cursor: pointer;
     position: relative;
     top: 2rem;
     width: 60%;
+    height: 400px;
   
     
   }
@@ -575,6 +576,10 @@ cursor: pointer;
 
       .slideshow-container2{
           height: 550px;
+      }
+
+      #map{
+          height: 500px;
       }
 
    

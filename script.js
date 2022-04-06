@@ -7,6 +7,37 @@ function openNav() {
     document.getElementById("Sidenav").style.width = "0";
   }
 
+let galleryImg = document.getElementById('gallery-photo')
+
+let nature = document.getElementById('nature');
+let relax = document.getElementById('relax');
+let unique = document.getElementById('unique');
+let hotelFeet = document.getElementById('Hotel_features');
+
+
+hotelFeet.addEventListener('mouseout', function(){
+  galleryImg.src ='imgs/The_Manchester_Hotel_Photo.png'
+})
+
+nature.addEventListener('mouseover', function(){
+  galleryImg.src ='imgs/Front_Reso.png'
+})
+relax.addEventListener('mouseover', function(){
+  galleryImg.src ='imgs/Indoor_Meet.png'
+})
+unique.addEventListener('mouseover', function(){
+  galleryImg.src ='imgs/BAR.png'
+})
+
+
+
+
+
+
+
+
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 showSlides2(slideIndex)
