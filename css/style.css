@@ -88,6 +88,7 @@ nav p{
     font-family: var(--lifeHouse);
     text-align: center;
     border-bottom: 1px solid var(--beige);
+    letter-spacing: 1px;
     
 }
 
@@ -318,6 +319,30 @@ font-size: 0.8rem;
     width: 100%
     
     }
+
+    footer{
+        background-color: #263d2f;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p{
+        color: #fff;
+        font-family: "Seta Reta NF W01 Regular" ;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #email{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    
 
 
 
