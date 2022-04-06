@@ -93,7 +93,7 @@ function showSlides2(n) {
 }
 
 
-var map = L.map('map').setView([37.8495892, -84.3684298], 15);
+var map = L.map('map').setView([38.053367, -84.5109815], 15);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -109,7 +109,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
     var marker = L.marker([38.053367,-84.5109815,17]).addTo(map);
-    marker.bindPopup("Manchester Hotel").openPopup();
+    marker.bindPopup("The Manchester").openPopup();
 
     
 
