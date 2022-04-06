@@ -281,16 +281,7 @@ font-size: 0.8rem;
       flex-direction: column;
   }
 
-  .dots{
-      position: absolute;
-      bottom: 0.5rem;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-      
-      
-  }
+ 
 
   #Hotel_features{
       display: none;
@@ -443,12 +434,13 @@ cursor: pointer;
    #Hotel_features{
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem 0rem 0rem;
+    padding: 2rem 2rem 0rem 0rem;
 }
 
 .hotel_feature{
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
     border-bottom: 1px solid grey;
+    cursor: pointer;
 }
 
 .story-section{
@@ -466,6 +458,7 @@ cursor: pointer;
 
 .main-wording-section{
     align-self: initial;
+    width: 40%;
 }
 
 #section1{
@@ -503,6 +496,16 @@ cursor: pointer;
 }
 
 .slideshow-container {
+   
+    display: flex;
+    position: relative;
+    top: 2rem;
+    width: 60%;
+  
+    
+  }
+
+  .slideshow-container2{
    
     display: flex;
     position: relative;
@@ -570,6 +573,10 @@ cursor: pointer;
         
       }
 
+      .slideshow-container2{
+          height: 550px;
+      }
+
    
 }
 
@@ -594,87 +601,6 @@ cursor: pointer;
 
 
 
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  #myImg:hover {opacity: 0.7;}
-  
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-    z-index: 999;
-  }
-  
-  /* Modal Content (Image) */
-  .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-  }
-  
-  /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-  }
-  
-  /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-  
-  @keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-  }
-  
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -698,7 +624,7 @@ cursor: pointer;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #c7ac15;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -737,17 +663,8 @@ cursor: pointer;
     top: 0;
   }
   
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
+  
+ 
   
   .active, .dot:hover {
     background-color: #717171;
@@ -763,6 +680,25 @@ cursor: pointer;
     from {opacity: .4}
     to {opacity: 1}
   }
+
+
+
+  .slideshow-container2 {
+    
+    position: relative;
+    
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides2 {
+    display: none;
+    width: 100%;
+  }
+
+
+
+  
 
  
 

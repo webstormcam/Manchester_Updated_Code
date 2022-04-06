@@ -9,6 +9,7 @@ function openNav() {
 
 let slideIndex = 1;
 showSlides(slideIndex);
+showSlides2(slideIndex)
 
 // Next/previous controls
 function plusSlides(n) {
@@ -23,17 +24,41 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+ 
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
+ 
   slides[slideIndex-1].style.display = "flex";
-  dots[slideIndex-1].className += " active";
+}
+
+
+
+//Next/previous controls
+function plusSlides2(n) {
+  showSlides2(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide2(n) {
+  showSlides2(slideIndex = n);
+}
+
+
+function showSlides2(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  slides[slideIndex-1].style.display = "flex";
+ 
 }
 
 
@@ -47,3 +72,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoibGlua2NhbSIsImEiOiJjbDFkb3JjMGUwamsxM2ZuNGE5YXdzbjFrIn0.IalJsP4Je2nt6-V9HXK5cw'
 }).addTo(map);
+
+
+
+
+
