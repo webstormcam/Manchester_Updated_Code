@@ -342,6 +342,34 @@ font-size: 0.8rem;
         color: #000;
     }
 
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        background-color: #000;
+    }
+
+    .footeritems{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footerlinks{
+        margin-top: 2rem;
+    }
+
+    .footerlinks a{
+        color: #fff;
+        font-family: var(--lifeHouse);
+        font-size: 1.5rem;
+        text-decoration: none;
+        
+    }
+
    
 
     
@@ -553,6 +581,16 @@ cursor: pointer;
     width: 80%;
     
     top: 2rem;
+}
+
+
+footer{
+    height: 200px;
+}
+
+.footeritems{
+    flex-direction: row;
+    
 }
 
 
