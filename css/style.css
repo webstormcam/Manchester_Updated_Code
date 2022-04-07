@@ -585,11 +585,18 @@ cursor: pointer;
 
 
 footer{
-    height: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footeritems{
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 90% ;
     
 }
 
