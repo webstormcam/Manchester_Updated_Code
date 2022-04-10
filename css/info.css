@@ -38,6 +38,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 main{
@@ -47,9 +48,78 @@ main{
     justify-content: center;
     align-items: center;
     width: 95%;
+  
+}
+
+.facts{
+    margin-top: 2rem;
 }
 
 li{
     margin-bottom: 0.5rem;
+}
+footer{
+    background-color: #000;
+    width: 100%;
+    
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: #000;
+}
+
+
+
+.footeritems{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footerlinks{
+    margin-top: 2rem;
+}
+
+.footerlinks a{
+    color: #fff;
+    font-family:"Seta Reta NF W01 Regular" ;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+@media screen and (min-width:768px) {
+    main{
+        width: 90%;
+        max-width: 969px;
+    }
+    p{
+       font-size: 17px;
+    }
+}
+
+@media screen and ( min-width:1024px){
+    footer{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footeritems{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 90% ;
+        
+    }
 }
 
