@@ -25,6 +25,12 @@ h2{
     margin-bottom: 8px;
 }
 
+h3{
+    font-size: 22px ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 p, li{
     margin-bottom: 1rem;
     line-height: 160%;
