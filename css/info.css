@@ -36,6 +36,11 @@ p, li{
     line-height: 160%;
 }
 
+
+a{
+    text-decoration: none;
+}
+
 header{
     text-align: center;
     background-color: #f9f6ea;
@@ -49,13 +54,23 @@ header{
     position: relative;
 }
 
+#logo{
+    font-family:"Seta Reta NF W01 Regular" ;
+    color: #000;
+}
+
+#logo:hover{
+    color: rgb(49, 92, 49);
+    cursor: pointer;
+}
+
 nav{
     display: flex;
-    align-self: flex-start;
+    
     position: relative;
     top: -1rem;
-    width: 100%;
-    padding: 1rem;
+    width: 90%;
+    padding: 0.5rem;
 }
 
 main{
@@ -139,6 +154,10 @@ footer{
         height: 100%;
         width: 90% ;
         
+    }
+
+    #logo{
+       font-size: 2rem;
     }
 }
 
