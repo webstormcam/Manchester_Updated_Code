@@ -17,7 +17,7 @@ ol, ul {
 }
 
 :root{
-    --beige:#f9efe1;
+    --beige:#e4d9c5;
     --lifeHouse:"Seta Reta NF W01 Regular";
     --green: #263d2f;
     --navFont:"SweetSansPro-Regular";
@@ -85,16 +85,7 @@ nav p{
 }
 
 
-#logo{
- 
-    
-    font-size: 2rem;
-    font-family: var(--lifeHouse);
-    text-align: center;
-    border-bottom: 1px solid var(--beige);
-    letter-spacing: 1px;
-    
-}
+
 
 .open-words{
     z-index: 500;
@@ -374,6 +365,12 @@ font-size: 0.8rem;
         
     }
 
+    #logo{
+        width: 20rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--beige);
+    }
+
    
 
     
@@ -404,9 +401,7 @@ font-size: 0.8rem;
     }
 
 
-    #logo{
-        font-size: 3rem;
-    }
+    
 
     .open-words p{
        font-size: 1.2rem;
@@ -439,7 +434,9 @@ cursor: pointer;
 
    
 
-
+    #logo{
+        width: 30rem;
+    }
 
 
 
@@ -604,6 +601,10 @@ footer{
     
 }
 
+#logo{
+    width: 35rem;
+}
+
 
 
 
@@ -615,10 +616,7 @@ footer{
 
 
 @media screen and (min-width:1440px){
-    #logo{
- 
-    font-size: 4rem;
-     }
+    
 
     .open-words p{
         font-size: 1.5rem;
@@ -648,6 +646,11 @@ footer{
       #map{
           height: 500px;
       }
+
+
+      #logo{
+        width: 40rem;
+    }
 
    
 }
