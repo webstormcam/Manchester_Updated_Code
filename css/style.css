@@ -19,7 +19,7 @@ ol, ul {
 :root{
     --beige:#e4d9c5;
     --lifeHouse:"Seta Reta NF W01 Regular";
-    --green: #263d2f;
+    --green: #426d61;
     --navFont:"SweetSansPro-Regular";
 }
 
@@ -290,6 +290,7 @@ font-size: 0.8rem;
       font-size: 1.6rem;
       font-family: var(--lifeHouse);
       padding: 0rem 0rem 0rem 1rem;
+      margin-top: 1rem;
   }
 
   
@@ -307,7 +308,7 @@ font-size: 0.8rem;
     }
 
 #contact{
-        background-color: #263d2f;
+        background-color: var(--green);
         height: 200px;
         text-align: center;
         display: flex;
@@ -368,7 +369,7 @@ font-size: 0.8rem;
     #logo{
         width: 20rem;
         padding-bottom: 0.5rem;
-        border-bottom: 1px solid var(--beige);
+        border-bottom: 2px solid var(--beige);
     }
 
    
@@ -699,7 +700,7 @@ footer{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #defd58;
+    color: #d26249;
     font-weight: bold;
     font-size: 50px;
     transition: 0.6s ease;
