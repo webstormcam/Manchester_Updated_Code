@@ -8,20 +8,20 @@ ol, ul {
 }
 
 @font-face{
-    font-family:"Seta Reta NF W01 Regular";
+    font-family:"KyivType";
     src:url("../fonts/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Heavy.woff") format("woff2");
 }
 
 @font-face {
-    font-family: "SweetSansPro-Regular";
+    font-family: "Grotesque";
     src: url('../fonts/GrotesqueMTStd.woff');
 }
 
 :root{
     --beige:#e4d9c5;
-    --lifeHouse:"Seta Reta NF W01 Regular";
+    --lifeHouse:"KyivType";
     --green: #426d61;
-    --navFont:"SweetSansPro-Regular";
+    --navFont:"Grotesque";
 }
 
 html, body {
@@ -333,7 +333,7 @@ font-size: 0.8rem;
 
     #contact p{
         color: #fff;
-        font-family: "Seta Reta NF W01 Regular" ;
+        font-family: "Kyivtype" ;
         font-size: 2rem;
         margin-bottom: 1rem;
     }
@@ -391,7 +391,7 @@ font-size: 0.8rem;
         font-size: 1.2rem;
     }
 
-    .
+    
 
    
 
