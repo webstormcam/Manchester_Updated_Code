@@ -383,7 +383,7 @@ font-size: 0.8rem;
     #logo{
         width: 20rem;
         padding-bottom: 0.5rem;
-        border-bottom: 2px solid var(--beige);
+        /* border-bottom: 2px solid var(--beige); */
     }
 
 
