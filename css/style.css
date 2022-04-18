@@ -288,6 +288,8 @@ font-size: 0.8rem;
 
   .amenity-sm{
       width: 1.6rem ;
+      margin-right: 0.6rem;
+      margin-left: 0.2rem;
   }
 
   .section_split{
