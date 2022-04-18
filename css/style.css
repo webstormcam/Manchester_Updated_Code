@@ -254,7 +254,7 @@ nav p{
   }
 
   #room_features{
-    border-bottom: 1px solid black;
+    
     margin-top: 1.2rem;
     padding: 1rem;
   }
@@ -278,6 +278,16 @@ font-size: 0.8rem;
   .room-icon{
       width: 1.9rem;
       margin-right: 0.5rem;
+  }
+
+  .room_feature:last-child{
+      border-bottom: 1px solid grey;
+  }
+
+
+
+  .amenity-sm{
+      width: 1.6rem ;
   }
 
   .section_split{
